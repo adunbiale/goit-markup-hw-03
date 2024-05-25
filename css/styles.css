@@ -303,12 +303,6 @@ address {
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item-first {
-    width: calc((100% - 48px) / 3);
-}
-
-.portfolio-item:last-child {
-}
 .portfolio-image {
 }
 
