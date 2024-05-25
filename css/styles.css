@@ -40,6 +40,11 @@ h3 {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+image {
+    display: block;
+}
+
 section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -70,10 +75,11 @@ section {
 
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 
 
-.header .logo { 
+.logo { 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
@@ -143,6 +149,8 @@ address {
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px; 
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -153,6 +161,7 @@ address {
         text-align: center;
         color: #fff;
         margin-bottom: 48px;
+        max-width: 496px;
 }
 
 .order-button {
@@ -165,15 +174,16 @@ address {
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
-            padding: 16px 32px;
-
-
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
 }
 
 .order-button:hover,
 .order-button:focus {
     background-color: #404bbf;
-    cursor: pointer;
 }
 
 /* -------------------OPTIONS--------------------*/
@@ -207,10 +217,13 @@ address {
     margin-right: 0px;
 }
 
-.options-subtitle {}
+.options-subtitle {
+    margin-bottom: 8px;
+}
 
 
-.options-paragraph {}
+.options-paragraph {
+}
 
 
 /* -------------------TEAM--------------------*/
@@ -235,6 +248,7 @@ address {
     background: #fff;
     text-align: center;
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:last-child {
@@ -245,14 +259,20 @@ address {
     margin-bottom: 32px;
 }
 
+.team-member-describtion {
+    padding: 32px 0;
+
+}
 
 .team-subtitle {
     margin-bottom: 8px;
+    text-align: center;
 }
     
 .team-paragraph {
     margin-bottom: 32px;
-    
+    text-align: center;
+
 }
 
 
@@ -262,7 +282,9 @@ address {
 }
 
 
-.container {}
+.portfolio-container {
+    padding: 32px 16px;
+}
 
 
 .portfolio-title {
@@ -273,6 +295,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 
@@ -319,6 +342,8 @@ address {
         text-transform: uppercase;
         color: #4d5ae5;
         text-decoration: none;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer .logo-studio {
