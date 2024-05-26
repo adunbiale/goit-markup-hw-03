@@ -163,6 +163,8 @@ address {
         color: #fff;
         margin-bottom: 48px;
         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .order-button {
@@ -257,7 +259,6 @@ address {
 }
 
 .team-image {
-    margin-bottom: 32px;
 }
 
 .team-member-describtion {
@@ -271,7 +272,6 @@ address {
 }
     
 .team-paragraph {
-    margin-bottom: 32px;
     text-align: center;
 
 }
@@ -313,13 +313,11 @@ address {
 
 
 .portfolio-subtitle {
-    margin-left: 16px;
     margin-bottom: 8px;
 }
 
 
 .portfolio-description {
-    margin-left: 16px;
 }
 
 /* -------------------FOOTER--------------------*/
@@ -349,6 +347,5 @@ address {
 
 .footer-paragraph {
     color: #f4f4fd;
-    margin-top: 16px;
     width: 264px;
 }
